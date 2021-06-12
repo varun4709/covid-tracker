@@ -32,7 +32,7 @@ const Corona = () => {
     
         const sec ={
             width :'100%',
-            height : '170vh'
+            height : '190vh'
         }
         const row ={
          marginTop :'5rem'
