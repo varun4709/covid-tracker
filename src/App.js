@@ -10,7 +10,7 @@ const Corona = () => {
          const Response = await fetch ("https://api.covid19api.com/summary");
         const res = await Response.json();
           console.log(res.Countries[76].Date);
-          console.log(res.Countries[76].NewConfirmed)
+          console.log(res.Countries[76].NewConfirmed);
         setData(res.Countries[76]);
         }
         catch(error){
